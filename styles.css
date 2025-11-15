@@ -1,2 +1,22 @@
 
-/* Your CSS Code here. */
+div[data-ns-test] {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+div[data-ns-test] > * {
+  margin-right: 10px;
+}
+span, a, img, button {
+  padding: 4px;
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+div > div,
+div > p,
+div > h1,
+div > section {
+  background: #e8f5ff;
+  padding: 5px;
+  border-radius: 4px;
+}
